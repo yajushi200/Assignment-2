@@ -20,6 +20,8 @@ module.exports.findOne = async (req, res) => {
 };
 
 
+//({name: '/che/'})
+
 // Update a product by the id in the request
 // module.exports.update = async (req, res) => {
 //     if(!req.body) {
