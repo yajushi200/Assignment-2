@@ -10,10 +10,9 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-  //await mongoose.connect('mongodb://0.0.0.0:27017/marketplace');
-  //await mongoose.connect('mongodb://0.0.0.0:27017/marketplace');
-  await mongoose.connect('mongodb+srv://ranikrishnar:hrithika@cluster0.6lzd8ih.mongodb.net/Marketplace?retryWrites=true&w=majority')
-  // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
+  
+  await mongoose.connect('mongodb+srv://yajushigarg:xc1Ii2aeeej7m4fN@cluster0.ikaf6g7.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp')
+  
 }
 
 var indexRouter = require('./routes/index');
